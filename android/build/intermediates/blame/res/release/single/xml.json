@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lenghonglin/Desktop/SmartLock1.3.x/node_modules/react-native-ble-manager/android/build/intermediates/res/merged/release/xml/preferences.xml",
+        "source": "/Users/lenghonglin/Desktop/SmartLock1.3.x/node_modules/react-native-ble-manager/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/marco/git/react-native-ble-manager/android/build/intermediates/res/merged/release/xml/preferences.xml",
+        "source": "/Users/marco/git/react-native-ble-manager/android/build/intermediates/exploded-aar/com.facebook.react/react-native/0.20.1/res/xml/preferences.xml"
+    }
+]
