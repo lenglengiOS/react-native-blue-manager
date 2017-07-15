@@ -1,7 +1,7 @@
-# react-native-ble-manager
-[![npm version](https://img.shields.io/npm/v/react-native-ble-manager.svg?style=flat)](https://www.npmjs.com/package/react-native-blue-manager)
-[![npm downloads](https://img.shields.io/npm/dm/react-native-ble-manager.svg?style=flat)](https://www.npmjs.com/package/react-native-blue-manager)
-[![GitHub issues](https://img.shields.io/github/issues/innoveit/react-native-ble-manager.svg?style=flat)](https://github.com/lenglengiOS/react-native-blue-manager/issues)
+# react-native-blue-manager
+[![npm version](https://img.shields.io/npm/v/react-native-blue-manager.svg?style=flat)](https://www.npmjs.com/package/react-native-blue-manager)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-blue-manager.svg?style=flat)](https://www.npmjs.com/package/react-native-blue-manager)
+[![GitHub issues](https://img.shields.io/github/issues/innoveit/react-native-blue-manager.svg?style=flat)](https://github.com/lenglengiOS/react-native-blue-manager/issues)
 
 This is a porting of https://github.com/don/cordova-plugin-ble-central project to React Native.
 
@@ -11,10 +11,10 @@ This is a porting of https://github.com/don/cordova-plugin-ble-central project t
 
 ##Install
 ```shell
-npm i --save react-native-ble-manager
+npm i --save react-native-blue-manager
 ```
 ####iOS
-- Open the node_modules/react-native-ble-manager/ios folder and drag BleManager.xcodeproj into your Libraries group.
+- Open the node_modules/react-native-blue-manager/ios folder and drag BleManager.xcodeproj into your Libraries group.
 - Check the "Build Phases"of your project and add "libBleManager.a" in the "Link Binary With Libraries" section.
 
 ####Android
@@ -24,8 +24,8 @@ npm i --save react-native-ble-manager
 // file: android/settings.gradle
 ...
 
-include ':react-native-ble-manager'
-project(':react-native-ble-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ble-manager/android')
+include ':react-native-blue-manager'
+project(':react-native-blue-manager').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-blue-manager/android')
 ```
 #####Update Gradle Build
 
@@ -35,7 +35,7 @@ project(':react-native-ble-manager').projectDir = new File(rootProject.projectDi
 
 dependencies {
     ...
-    compile project(':react-native-ble-manager')
+    compile project(':react-native-blue-manager')
 }
 ```
 #####Register React Package
